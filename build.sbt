@@ -1,4 +1,6 @@
-name := """WeightedRandDist"""
+organization := "NicMart"
+
+name := """WeightedRandomDistribution"""
 
 version := "1.0"
 
