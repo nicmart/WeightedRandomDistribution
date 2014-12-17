@@ -18,7 +18,7 @@ Let's say you want to randomly select a color between red, green and blue, in su
 import nicmart._
 
 val weightedValues = List(WeightedValue("red", 5), WeightedValue("green", 3), WeightedValue("blue", 2))
-val distribution: WeightedRandomDistribution[String] = new WeightedRandomDistribution(weightedValues)
+val distribution = new WeightedRandomDistribution(weightedValues)
 ```
 
 You can then call distribution as a function of zero arguments:
